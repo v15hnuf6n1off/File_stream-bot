@@ -72,7 +72,7 @@
         },
         "PORT": {
             "description": "Port that you want your webapp to be listened to. Read the readme for more info about this var",
-            "value": "8080",
+            "value": "8088",
             "required": false
         },
         "NO_PORT": {
@@ -111,7 +111,7 @@
     "formation": {
         "web": {
             "quantity": 1,
-            "size": "free"
+            "size": "Basic"
         }
     }
 }
